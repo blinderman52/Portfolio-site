@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/b1e4fd4487.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Yeet</title>
+</head>
+
+<body>
+    <!------------Nav------------->
+    <nav class="navbar">
+        <div class="logo">
+            <!-- <h4>B.L.</h4> -->
+            <img src="Assets/Logo.PNG" alt="" class="bl">
+        </div>
+        <ul class="nav-links">
+            <li class="list-item"><a href="#home">Home</a></li>
+            <li class="list-item"><a href="#about-me">About Me</a></li>
+            <li class="list-item"><a href="#projects">Projects</a></li>
+            <li class="list-item"><a href="#contact">Contact Me</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <!-----------Landing section----------->
+    <section class="title-section" id="home">
+        <div class="title-info">
+            <p><span class="greet">Greetings!</span> My name is</p>
+            <h1>Brodey Linderman</h1>
+            <p>I am a passionate full stack developer residing in Florida.</p>
+        </div>
+        <div class="photo">
+            <img src="assets/BrodeyLinderman.jpg" alt="" />
+        </div>
+    </section>
+
+
+    <!----------------About Me Section-------------->
+
+    <section class="abt-me-section" id="about-me">
+        <div class="column1">
+            <img id="dev-img" src="assets/developer-rs.png" />
+        </div>
+        <div class="column2">
+            <div class="my-info">
+                <h2>About Me</h2>
+                <p>
+                    Ever since I was a young boy, I have had a passion for building. I started with cardboard, then
+                    progressed to Legos, and eventually transitioned into programming. The ability to create and
+                    manipulate a user interface or a database using code has not only fascinated me but also driven me.
+                    This passion also extends to my hobbies, such as playing guitar, woodworking, and weightlifting,
+                    which all involve the art of creation, sculpting, and manipulation to create something
+                    extraordinary.
+                    <br>
+                    <br>
+                    Below, you'll find information about my knowledge of tools, education, and work experience. If you
+                    have any questions, please don't hesitate to contact me via email using the contact form at the
+                    bottom of the page. I hope you enjoy exploring my projects and getting to know a bit about me.
+                    Cheers!
+                </p>
+            </div>
+            <div class="tab-container">
+                <input id="tab1" class="XPTabs" type="radio" name="tabs" checked>
+                <label for="tab1" class="icon">Skills & Tools</label>
+
+                <input id="tab2" class="XPTabs" type="radio" name="tabs">
+                <label for="tab2" class="icon">Experience</label>
+
+                <input id="tab3" class="XPTabs" type="radio" name="tabs">
+                <label for="tab3" class="icon">Education</label>
+
+                <div id="content1" class="tab-section">
+                    <p>
+                        - HTML5 <br />
+                        - CSS3 <br />
+                        - JS <br />
+                        - C# <br />
+                        - NODE <br />
+                        - SQL <br />
+                        - GIT
+                    </p>
+                </div>
+
+                <div id="content2" class="tab-section">
+                    <p>
+                        - ITEL Lab INC
+                        <br />
+                        - AgileThought <br />
+                        - Best Buy (Geek Squad)
+                    </p>
+                </div>
+
+                <div id="content3" class="tab-section">
+                    <p>
+                        - University of South Florida
+                        <br />&emsp;- BS Information Science <br />- Hillsburough
+                        Community Collge <br />&emsp;- AA Business Adminsration
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-----------------Projects----------------->
+    <section class="projects-section" id="projects">
+        <div class="project-contatiner">
+            <div class="project-card">
+                <div class="card-img"><img src="assets/code.jpg" alt=""></div>
+                <h3>Project 1</h3>
+                <p>Coming Soon!</p>
+                <button class="disabled">View App</button>
+                <button class="disabled">View Code</button>
+            </div>
+            <div class="project-card">
+                <div class="card-img"><img src="assets/code.jpg" alt=""></div>
+                <h3>Project 2</h3>
+                <p>Coming Soon!</p>
+                <button class="disabled">View App</button>
+                <button class="disabled">View Code</button>
+            </div>
+            <div class="project-card">
+                <div class="card-img"><img src="assets/code.jpg" alt=""></div>
+                <h3>Project 3</h3>
+                <p>Coming Soon!
+                </p>
+                <button class="disabled">View App</button>
+                <button class="disabled">View Code</button>
+            </div>
+            <div class="project-card">
+                <div class="card-img"><img src="assets/code.jpg" alt=""></div>
+                <h3>Project 4</h3>
+                <p>Coming Soon!
+                </p>
+                <button class="disabled">View App</button>
+                <button class="disabled">View Code</button>
+
+            </div>
+        </div>
+    </section>
+    <section class="contact-section" id="contact">
+        <div class="contact-sec-container">
+            <div class="contact-container">
+                <!-- If you are reading this, I will be updating this form once I leanr more technologies! -->
+                <form class="contact-form" action="https://formsubmit.co/blinderman52@hotmail.com" method="POST">
+                    <input type="hidden" name="_subject" value="New submission!">
+                    <p>
+                        If you are intested in getting to know me, collab, or just say hello, feel free to reach out
+                        below. I would love to talk more!
+                    </p>
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <textarea type="text" name="message" placeholder="Your message here..." required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="resume-container">
+                <div class="social-links">
+                    <div class="github-icon">
+                        <a href="https://www.github.com/blinderman52" target="_blank"><i
+                                class="fa-brands fa-github fa-5x"></i></a>
+                        <p>Github</p>
+                    </div>
+                    <div class="linkedin-icon">
+                        <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-5x"></i></a>
+                        <p>Linkedin</p>
+                    </div>
+                </div>
+                <div class="resume-link" >
+                    <i class="fa-solid fa-file-arrow-down fa-5x" id="downloadButton"></i>
+                    <p>Download Resume</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <p>
+                © 2023 | Designed & coded by Brodey Linderman
+            </p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
